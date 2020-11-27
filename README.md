@@ -127,7 +127,7 @@ For the signatures, the algorithmns `sha1WithRSAEncryption` (legacy) and `sha256
 ## Get Extension Download Link
 Request:
 ```
-https://download.eqdkp-plus.eu/repository.php?function=downloadid_link&id=229&core=2.3.36&category=1&name=SK%20Startorder
+https://download.eqdkp-plus.eu/repository.php?function=downloadid_link&id=229&core=2.3.36.0&category=1&name=SK%20Startorder
 ```
 * `id`: the extension ID
 * `core`: the current core version
