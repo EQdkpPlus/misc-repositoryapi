@@ -100,7 +100,7 @@ The `extension_pk` (PK = Plus kernel) contains the information about the latest 
 ## Get Core Download Link
 Request:
 ```
-https://download.eqdkp-plus.eu/repository.php?function=core_update&old=2.3.25&new=2.3.26
+https://download.eqdkp-plus.eu/repository.php?function=core_update&old=2.3.25.0&new=2.3.26.0
 ```
 
 Response if a newer version is available:
@@ -111,13 +111,13 @@ Response if a newer version is available:
 Response:
 ```
 {
-   "link":"https:\/\/eqdkpcdn2.freetls.fastly.net\/core\/2.3.35_1\/Update_Packages\/eqdkp-plus_2.3.1_to_2.3.35_update.zip",
-   "hash":"7c58f3b6c1a60607ab99b01c54a26ef4c489dc5d",
-   "signature":"NoNxKJX639ky6+X\/ljfZ2DCIZPNXHKuWBgObCh2bxbimKbDWo\/kjXN4QJxbk1oLQLZTbKAVJfZNlao\/\/kANK6eBAAbX7ctkjLI1xc6z29k1pTewZBDVI64KymaddG5UkY\/x3r1HwhDgD8dXB9IFgqznQaZU+ISg+hUqad9vM0YdQshdRCy2H+l\/mE5o3MC\/iYKc5TSDECdyWJPYEClYVWDEforACPMTNAzW66lGi1UZ2olfbYhq\/hIWl+Wu65nP84M55tuOdR06cddtRj0npOLX4PbXUqYRSELbAb9gpeZe\/X92P6v5T1AY6FPwS19pLu9MbMIixtZBZyKTP3FUmSvFWkXJi58yNnHSVrHCfcEd4npnwLkBJeDzg\/MsPpu67IFcUGp8odxWyuhZ8rjSOUayqi8fQmiSD+ZyKdKZMiCOcGNIynCxQq\/j6Lumh9OrxXVDVC5KwHM2iVveHt3at5NokSgDPK5sbiN\/5JhobMOXJ2YRN+GXvRV+0T6kw5EPhA3UU67mFmHBX1UhGkhRSGItyvA0Xi+Um4RC7rD79zvjc8VW8AfIPZ6IjxFBkNAbVOsea7lcMpayzm9xVb6ZEeJLUg\/XgZO1\/N78Jdr+AEogrSqtF2hmQosepheFRcOyJnj5\/mgx\/eK6HasnGbWRoi2oL4slwVjip1O5WuMu4Hy4=",
-   "new_version":"2.3.35.0",
+   "link":"https:\/\/eqdkpcdn2.freetls.fastly.net\/core\/2.3.36_1\/Update_Packages\/eqdkp-plus_2.3.30_to_2.3.36_update.zip",
+   "hash":"731bf174fe52f0b80f9cb2e554444281270e8d38",
+   "signature":"DIwm+a5UFKuIQS2+7ZiIjzuSK5oZmgPxV+et2seKfUXB\/NriauA++N46ThUc+l4WQjMbiqb4KLoeJH1AlFUMRMnrPlONaWD3RST7rzvZN2f3LPVq++rLMQqR2EaiNg+gZsps6gxl8DYFytEgvjcWhyNn0l6bsp3XnXzVOwOezH9scp8YbhdqVU8zIK+4P1TrTIqThxoupxdTZO5RH5Qm5w4NbDwZDe7be3WjY95MFDBw68B6Yw3aASNzitSr0K\/qvAJ7vaNGqH9QsnjIO9j1ad1hv1wJsmeGbgKfAYdQbTI258kO3\/0Jdfx8uuQusXRacVM8GWBt7\/XzDkLWmfVH22nLurimiaDK\/6tZmIv7blrI6yAT+WNk2LjhTqBCvG99JKVovv7mvlkewVLVAHF39tUZgLGwC8xIQ\/Ha+Kyy95\/P1t\/T1h+8IRWy4qOpqPpJRboJg51SgfXvqMhv6EEMv78jGLiQ7fAcU\/0AeI6dDiUOaIySkztwRB3cfZfPinIr3mlYo62bqB4C\/jgATzakncJqupIG27YwQS49IXvQrh3FMPN+SMHcZ7twWetz\/3dHeWE9PYnhcHlk+5tghSa34VhkvPJSFP8tIZIGC1ULLqS1MPjM8WzE0iODY56+5JdBkzkibPd7pru69gjoZnQTAsycmNoG6k4izWOrPDeLtlQ=",
+   "new_version":"2.3.36.0",
    "releasenote":null,
-   "hash_sha256":"2b0387652b5ace61e5f0e27440b643d3b8905945bc78d497c50b4583089cad03",
-   "signature_sha256":"Cz3aMCOiw0r82SvrtOHC1A1zIHjeJqPAg2\/vl9NxrWdbM9oDrONmmr41Ajo2nEyRdins1H8u\/YQNwsD0XzkZs7MyN1RC2XaCzco0QWsHkfmSaQripg98KDc3W4mp+xP81w8n+P4j5kaudpx5ZAcnCHD7TZqwf5FJoSYWKjkAhgyYnlxdLBlh8ZFYIIZkxjJ+1fG2WUstN5BK2BM9u4RmHlvI8OBkKKu99dOqU95ZVzxVelhFTViqUITRDLgF3ebprGW5+KhDkDDdxEDecUEDQHfVEgE76+G7nJuZNgV5knXGGTTYrXpIiFwzVEBMRAEwHjdevOz2YxKtFGDvg6uYjfgRDJJeaOOYmePyGOaLQuyxdMyxtzqdsm1CerKAhExwrZ6w6gJDE9EfF+xE4xk1vf16RVFz8tZsnw2VsTA0YzxOMw3VTZC+JAE99T1wnVBzrPyKJ17csubGG4TdFT+mkvChXasnX1g2A93jvHArfLp+PHi8vTu5uT79um\/eSbjdLZdGqZYKDqMWOFw7U039zNbKHJtdmSYkspL9k4uCMLR+zRBtQTUW3jU\/03yjul5AXTHX7B1NudKO\/LKIaCELoHamPB9kULPnAMfCS+wVbdaq2Y\/DJOxGdqLt5QChq5KU7IVFZ0SGgpDfWRUHw5h5kCGW3qbJbxr4RoSCpie9SmU=",
+   "hash_sha256":"1c002be42148c3d57027627df7e0072b75002b054aa4f293e939a33e13741d1a",
+   "signature_sha256":"YVCHWJLSNNb0SIZYk7U\/6CN4UroJC0Q2jEbk+qJ7bKAke2mk8\/bXuUSt3w372eLpTQthT\/Vrn6wNEgTykNhreuabmFRMYLs+1HI32oUXOSvpdsd3G4sMGqDk1QSr1se8lVUzAZ5vVk4SGZEPs5G6wc5w6ok9WfFCyhNBnrJuDeQ2SAdA8uiDvEycn0+OBPBek97wrsx3LIsvj2L+tCzaQ0vTyMLYcqyhvDTovJp0BI08a99EOH9hJvLBZa7ZBbmP5cnySvqkeULXLsEOC718vzFm8snTscLQmfhCsOXSIYYFaMYYy7GMgCAV7RdPLD3Gt4pOEKcV3qhHwuHkNSW0P3MxflOUzdO8FBhGnIH8iE5ZHGN44T84R814zeSRGvGAQscEkG0UvFawUgn7+hPXxVJXjIAxsPBrAjaa4qlOLxI4Nz2+2vD7\/NDpZg7ReckgaxXdhjIG41M8nWSxI0U9g1cLdssswD6IEvZ1aOPZkKyZvzcp+nFMcwqaactHNiIS5yiktAIqfSdI0u4b0DcjfcWiwLUSlfX03uuhwCCH2EdfR0Us1Xb6Hw+9C7Plh5utVYzn5VZ4bA80zkmPyltdgbtd6jwKrR1eSnK4TxpePCw8zoVMgRu3qPByiQ9h98Zw+iRbt6840FL7k\/MmEnsnpzbs6+HUT0rlgEucXeJIPHs=",
    "status":1
 }
 ```
